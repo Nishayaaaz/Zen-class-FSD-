@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Games of Thrones</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div>
+
+        <img src="https://raw.githubusercontent.com/muthu050700/Day10-Task-1-Game-of-Thrones-Project-/f577e15f014000b394ad305ee1fde14c6a5a7946/pngwing.com.png"
+            alt="" />
+    </div>
+    <div class="container">
+
+        <div class="header_content" id="home">
+            <img src="pngwing.com.png" alt="" />
+            <input type="checkbox" id="click" />
+            <label for="click" class="nav-icon">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+            <ul id="nav" class="hidden-nav">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#cast">Cast</a></li>
+                <li><a href="#quotes">Quotes</a></li>
+                <li><a href="#houses">Houses</a></li>
+                <li><a href="#contact-us">ContactUs</a></li>
+            </ul>
+        </div>
+        <div class="series_about">
+            <h1>Overview</h1>
+            <p>
+                The Games of Thrones takes place over the course of one year on or near the fictional continent of
+                Westeros.The story begins when King Robert visits the northern
+                castle Winterfell to ask NedStark to be his right-hand asssistant,or Hand of the King.The previous
+                Hand,Jon Arrryn died under suspicious circumstances,Robert comes with his queen.Cersei Lannister,and his
+                retinue,which includes
+                a number of Lannisters.Just after the royal party arrives,Ned's wife,Catelyn,recieves a message claiming
+                that he Lannister family was responsible for the death of the former Hand.She tells Ned,who accepts the
+                position as Hand in order to protect Robert from the Lannisters.Ned's Son Bran them discovers Cersei
+                Lannisters and her brother Jamie Lannister having relationship,and Jamie pushes Bran from
+                window to silence him.Everyone thinks Bran simply fell while climbing around the castle
+
+
+
+            </p>
+        </div>
+
+        <div class="main-content">
+            <div class="trailer-img">
+                <img id="main-img" src="game-of-thrones-1-1920x1080.webp" alt="" />
+                <img class="play-img" id="play-video" src="play-button-28245.png" alt="" />
+            </div>
+            <div class="series_IMDB">
+                <article>
+                    Games of Thrones,American fantasy television series created by David Benieoff and D.B.Weiss,based on
+                    the Song of Ice and Fire novels by George R.R.Martin.The HBO Series ran for eight seasons
+                    between one of the most acclaimed programs of all time.A critical darling and cultural
+                    phenomenon,the series had a profounded effect on American television and the fantasy genre because
+                    of its complex characters.its
+                    focus on political intrigue,and its dark,even bleak,appraoch.
+                </article>
+                <div class="journal">
+                    <p>Action</p>
+                    <p>Adventure</p>
+                    <p>Drama</p>
+                </div>
+
+                <div class="series_IMDB_right">
+                    <p>TV Series</p>
+                    <ul>
+                        <li>2011-2019</li>
+                        <li>TV-MA</li>
+                        <li>55m</li>
+                    </ul>
+                </div>
+                <div class="series_rating">
+                    <p>IMDb Rating</p>
+                    <div class="rating_icon">
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="rating">
+                        <p><span>9.2</span>/10</p>
+                        <p id="views">2.3M</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="trailer-video" id="hidden">
+            <video src="video.mp4" controls autoplay muted id="video_hidden"></video>
+            <img id="close-icon" class="close-icon" src="close-icon.png" alt="" />
+        </div>
+        <div class="overlay hidden"></div>
+    </div>
+
+    <div class="listofcharacters">
+        <div class="titleOfCharacters" id="cast">
+            <h2>Cast and Character Details</h2>
+            <p>See the full list of the Game of Thrones cast and characters.</p>
+            <li>Daenerys Targaryen</li>
+            <li>Sansa Stark</li>
+            <li>Catelyn Stark</li>
+            <li>Cersei Lannister</li>
+            <li>Joffry Baratheon</li>
+            <li>Jon Snow</li>
+            <li>Jorah Mormont</li>
+            <li>Bran Stark</li>
+            <li>Jamie Lannister</li>
+            <li>Ned Stark</li>
+        </div>
+        <div class="card"></div>
+        <div class="btn">
+            <button id="previous-btn">Previous</button>
+            <button id="next-btn">Next</button>
+        </div>
+        <div class="quotes-container" id="quotes">
+            <div class="quotes-title">
+                <h2>Game of Thrones Quotes</h2>
+
+
+            </div>
+            <div class="quotes"></div>
+        </div>
+        <div class="houses" id="houses">
+            <div class="house-title">
+                <h2>The 9 Major Game of Thrones Houses</h2>
+                <ol>
+                    <li>House Stark</li>
+                    <li>House Targaryen</li>
+                    <li>House Lannister</li>
+                    <li>House Greyjoy</li>
+                    <li>House Tyrell</li>
+                    <li>House Baratheon </li>
+                    <li>House Martell</li>
+                    <li>House Arryn</li>
+                    <li>House Tully</li>
+
+                </ol>
+            </div>
+            <div class="card-content"></div>
+            <div class="btn">
+                <button id="house-previous-btn">Previous</button>
+                <button id="house-next-btn">Next</button>
+            </div>
+        </div>
+        <div class="footer" id="contact-us">
+            <div class="footer-btn">
+                <button id="footer-btn">Sign in for more access</button>
+            </div>
+            <div class="icons">
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-square-instagram"></i>
+                <i class="fa-brands fa-square-whatsapp"></i>
+                <i class="fa-brands fa-facebook"></i>
+            </div>
+            <div class="privacy-details">
+                <p>Privacy Policy</p>
+                <p>Terms of Use</p>
+                <p>Cookie Settings</p>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
